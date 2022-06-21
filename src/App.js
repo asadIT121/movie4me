@@ -6,7 +6,7 @@ import Header from './data/header/Header';
 function App() {
   return (
     <>
-        <Header />
+        <Header data="Header from prop"/>
         <Button />
         <Footer />
     </>

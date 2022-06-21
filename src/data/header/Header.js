@@ -1,8 +1,8 @@
 import './Header.css'
 
-function Header() {
+function Header(prop) {
   return (
-    <div className='header'>Header</div>
+    <div className='header'>{prop.data}</div>
   )
 }
 
